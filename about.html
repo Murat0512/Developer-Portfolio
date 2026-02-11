@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Murat Karabiyik</title>
+  <meta name="description" content="About Murat Karabiyik — Junior Full Stack Developer in London, UK." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Murat Karabiyik</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="./index.html">Home</a>
+        <a class="nav__link is-active" href="./about.html">About</a>
+        <a class="nav__link" href="./project.html">Projects</a>
+        <a class="nav__link" href="./index.html#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="btnTheme" class="btn btn--ghost" type="button" aria-pressed="false" title="Toggle theme">
+          Toggle theme
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="card">
+        <h1 class="page-title">About</h1>
+        <p class="muted">Career transition • engineering discipline • practical delivery.</p>
+
+        <p>
+          I’m a Junior Full Stack Developer transitioning from Civil Engineering. I bring a disciplined mindset,
+          strong documentation habits, and a structured approach to problem-solving into software development.
+        </p>
+
+        <p>
+          I focus on building practical, deployable apps. Recent work includes full-stack features such as authentication,
+          file uploads, PDF reporting, and data validation — plus Python-based tooling for DXF/CSV verification workflows.
+        </p>
+
+        <h2>What I’m looking for</h2>
+        <ul class="bullets">
+          <li>Entry-level role: Junior Full Stack / Junior Backend / Junior Frontend (Angular)</li>
+          <li>A team environment with mentorship and code review culture</li>
+          <li>Opportunities to contribute to real product features and improve engineering fundamentals</li>
+        </ul>
+
+        <h2>Core strengths</h2>
+        <ul class="bullets">
+          <li>Structured thinking and careful change control</li>
+          <li>Documentation and audit-trail mindset</li>
+          <li>Reliable delivery with attention to detail</li>
+        </ul>
+
+        <div class="inline-links">
+          <a class="link" href="./project.html">View projects</a>
+          <a class="link" href="mailto:muratkarabiyik@hotmail.co.uk">Email me</a>
+          <a class="link" href="https://www.linkedin.com/in/murat-karabiyik" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">© <span id="year"></span> Murat Karabiyik</div>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
