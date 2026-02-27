@@ -1,130 +1,150 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projects — Murat Karabiyik</title>
-  <meta name="description" content="Projects by Murat Karabiyik — deployable web apps and tooling." />
-  <link rel="stylesheet" href="./assets/styles.css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Murat Karabiyik</title>
+    <meta
+      name="description"
+      content="Projects by Murat Karabiyik — deployable web apps and tooling."
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
 
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="./index.html" aria-label="Home">
-        <span class="brand__dot"></span>
-        <span class="brand__text">Murat Karabiyik</span>
-      </a>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html" aria-label="Home">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Murat Karabiyik</span>
+        </a>
 
-      <nav class="nav" aria-label="Primary">
-        <a class="nav__link" href="./index.html">Home</a>
-        <a class="nav__link" href="./about.html">About</a>
-        <a class="nav__link is-active" href="./project.html">Projects</a>
-        <a class="nav__link" href="./index.html#contact">Contact</a>
-      </nav>
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="./index.html">Home</a>
+          <a class="nav__link" href="./about.html">About</a>
+          <a class="nav__link is-active" href="./project.html">Projects</a>
+          <a class="nav__link" href="./index.html#contact">Contact</a>
+        </nav>
 
-      <div class="nav-actions">
-        <button id="btnTheme" class="btn btn--ghost" type="button" aria-pressed="false" title="Toggle theme">
-          Toggle theme
-        </button>
+        <div class="nav-actions">
+          <button
+            id="btnTheme"
+            class="btn btn--ghost"
+            type="button"
+            aria-pressed="false"
+            title="Toggle theme"
+          >
+            Toggle theme
+          </button>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="section">
-      <div class="card">
-        <h1 class="page-title">Projects</h1>
-        <p class="muted">Three real projects with clear scope, tech, and outputs.</p>
-
-        <hr class="sep" />
-
-        <article class="proj" id="sitetracker">
-          <div class="proj__head">
-            <h2>SiteTracker — Full Stack Site Progress Tracker</h2>
-            <p class="muted">Angular 17 • Node.js/Express • MongoDB • PDFKit • Cloudinary • Vercel</p>
-          </div>
-
-          <div class="proj__links">
-            <a class="btn btn--primary" href="https://sitelog-frontend.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-
-          <h3>Problem</h3>
-          <p>Site progress and evidence often get scattered across spreadsheets, photos, and messages.</p>
-
-          <h3>Solution</h3>
-          <ul class="bullets">
-            <li>Daily log creation with filters and date-range querying</li>
-            <li>Evidence attachments (images/PDFs) via Cloudinary</li>
-            <li>PDF reporting by date range (PDFKit)</li>
-            <li>JWT authentication and protected routes</li>
-            <li>Deployed frontend workflow on Vercel</li>
-          </ul>
-        </article>
-
-        <hr class="sep" />
-
-        <article class="proj" id="counciltax">
-          <div class="proj__head">
-            <h2>Council Tax App — Form UI + Validation</h2>
-            <p class="muted">HTML • CSS • JavaScript • Vercel</p>
-          </div>
-
-          <div class="proj__links">
-            <a class="btn btn--primary" href="https://council-tax-app.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-
-          <h3>Problem</h3>
-          <p>Users need a simple, clear form experience with helpful validation and UK-friendly formatting.</p>
-
-          <h3>Solution</h3>
-          <ul class="bullets">
-            <li>Accessible form layout and inline error messaging</li>
-            <li>UK postcode formatting and validation</li>
-            <li>Optional phone validation and user-friendly UX</li>
-            <li>Deployed as a lightweight static web app</li>
-          </ul>
-        </article>
-
-        <hr class="sep" />
-
-        <article class="proj" id="civtech">
-          <div class="proj__head">
-            <h2>CivTech Auditor Pro — As-Built Verification Tool</h2>
-            <p class="muted">Python • Streamlit • Pandas • Plotly • ezdxf • XlsxWriter</p>
-          </div>
-
-          <div class="proj__links">
-            <a class="btn btn--primary" href="https://muratcsv-c9f2aytwcx3vm48vmoakyc.streamlit.app/" target="_blank" rel="noreferrer">
-              Live Demo (Public)
-            </a>
-          </div>
-
-          <h3>Problem</h3>
-          <p>Survey QA against CAD design is time-consuming and difficult to audit consistently.</p>
-
-          <h3>Solution</h3>
-          <ul class="bullets">
-            <li>3D deviation checks: horizontal (plan) + vertical (elevation)</li>
-            <li>Coordinate nudge system to align survey to design datum</li>
-            <li>Interactive overlay view with pass/fail markers</li>
-            <li>Audit exports concept: verified report + color-coded DXF output</li>
-          </ul>
-
-          <p class="muted" style="margin-top: 10px;">
-            Presented as a <strong>public demo</strong> link.
+    <main class="container">
+      <section class="section">
+        <div class="card">
+          <h1 class="page-title">Projects</h1>
+          <p class="muted">
+            Three real projects with clear scope, tech, and outputs.
           </p>
-        </article>
 
-      </div>
-    </section>
+          <hr class="sep" />
 
-    <footer class="footer">
-      <div class="muted">© <span id="year"></span> Murat Karabiyik</div>
-    </footer>
-  </main>
+          <article class="proj" id="sitetracker">
+            <div class="proj__head">
+              <h2>SiteTracker — Full Stack Site Progress Tracker</h2>
+              <p class="muted">
+                Angular 17 • Node.js/Express • MongoDB • PDFKit • Cloudinary •
+                Vercel
+              </p>
+            </div>
 
-  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-  <script src="./assets/app.js"></script>
-</body>
+            <div class="proj__links">
+              <a
+                class="btn btn--primary"
+                href="https://sitelog-frontend.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                >Live Demo</a
+              >
+            </div>
+
+            <h3>Problem</h3>
+            <p>
+              Site progress and evidence often get scattered across
+              spreadsheets, photos, and messages.
+            </p>
+
+            <h3>Solution</h3>
+            <ul class="bullets">
+              <li>Daily log creation with filters and date-range querying</li>
+              <li>Evidence attachments (images/PDFs) via Cloudinary</li>
+              <li>PDF reporting by date range (PDFKit)</li>
+              <li>JWT authentication and protected routes</li>
+              <li>Deployed frontend workflow on Vercel</li>
+            </ul>
+          </article>
+
+          <hr class="sep" />
+
+
+
+          <article class="proj" id="civtech">
+            <div class="proj__head">
+              <h2>CivTech Auditor Pro — As-Built Verification Tool</h2>
+              <p class="muted">
+                Python • Streamlit • Pandas • Plotly • ezdxf • XlsxWriter
+              </p>
+            </div>
+
+            <div class="proj__links">
+              <a
+                class="btn btn--primary"
+                href="https://muratcsv-c9f2aytwcx3vm48vmoakyc.streamlit.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo (Public)
+              </a>
+            </div>
+
+            <h3>Problem</h3>
+            <p>
+              Survey QA against CAD design is time-consuming and difficult to
+              audit consistently.
+            </p>
+
+            <h3>Solution</h3>
+            <ul class="bullets">
+              <li>
+                3D deviation checks: horizontal (plan) + vertical (elevation)
+              </li>
+              <li>Coordinate nudge system to align survey to design datum</li>
+              <li>Interactive overlay view with pass/fail markers</li>
+              <li>
+                Audit exports concept: verified report + color-coded DXF output
+              </li>
+            </ul>
+
+            <p class="muted" style="margin-top: 10px">
+              Presented as a <strong>public demo</strong> link.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">© <span id="year"></span> Murat Karabiyik</div>
+      </footer>
+    </main>
+
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+    <script src="./assets/app.js"></script>
+  </body>
 </html>
